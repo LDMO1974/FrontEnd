@@ -1,0 +1,33 @@
+
+
+html {
+  font-family: 'Raleway', serif; 
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%; 
+}
+​
+
+body {
+  margin: 0;
+}
+
+header {
+   background-image: url("./assets/indexbanner-bg2.jpg");
+    background-repeat: no-repeat;
+}
+
+
+nav {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+nav ul{
+   list-style-type: none;
+   text-align: center;
+} 
+
+
+#titulo {
+   background-image: url("../assets/indexbanner-bg2.jpg") ;
+}

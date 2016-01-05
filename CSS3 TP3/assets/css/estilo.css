@@ -1,0 +1,199 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', serif; 
+}
+/*generales */
+
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+p {
+  text-align: center;
+  font-family: 'Raleway', serif; 
+  font-size: 12px;
+}
+
+
+/*fin de generales */
+
+/*--header--*/
+
+.header-nav {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.header-nav ul{
+   list-style-type: none;
+   text-align: center;
+} 
+
+.header-nav a:link {
+    color: #000;
+    text-decoration: none;
+
+}
+
+.header-nav a:visited {
+    color:#5F5F5F;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    color: #CCC;
+    text-decoration: none;
+}
+
+.header-nav a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+/*--fin header--*/
+
+/*--slider--*/
+
+#slider {
+  width: 100%;
+  height: 400px; /*siempre que tiene que estar*/
+  background-image: url("../img/indexbanner-bg3.jpg");
+}
+
+/*--fin slider--*/
+
+/*--boton search--*/
+
+.search-aside form {width: 100%;}
+
+.search-aside input[type=text] { 
+    width: 50%;
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 1px;
+}
+
+.search-aside input[type=text]:focus {
+        border-color:#333;
+}
+
+.search-aside button {
+    color:#FFF;
+    background:#00ADF0; 
+    border:0 none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-border-radius: 1px;
+    border-radius: 1px; 
+}
+
+/*--fin boton search--*/
+
+/*mobile info*/
+
+.mobile-info img {
+      align: center;
+      border: 0;
+}
+
+.mobile-info p{ font-size: 14px;}
+
+/*fin mobile info*/
+
+.head-price {
+   background-image: url("../img/pricing-bg.jpg");
+}
+
+.valor-price table {
+    width: 100%;
+    border: 1px solid;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.price {
+      font-size: 35px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+.smallpack .valor{color:#A3DEF1; text-align: center;}
+
+.normalpack .valor{color:#F9D846; text-align: center;}
+
+.bigpack .valor{color:#FFA678; text-align: center;}
+
+.bestpack .valor{color:#FB8C5B; text-align: center;}
+
+.valor-price button {
+    color:#FFF;
+    background:#00ADF0; 
+    border:0 none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+
+}
+
+/*fin de promo de paquetes */
+
+/*anuncio */
+
+#prome {background-color:#212F3E;}
+
+#prome p {
+  color:#FFF;
+  font-size: 35px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#prome p span{color:#0D82B7;}
+
+/*fin de anuncio */
+
+/* footer */
+
+footer {background-color:#151D26;}
+
+footer p, nav {color:#FFF;}
+
+footer nav ul{
+   list-style-type: none;
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+
+} 
+
+footer nav a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer nav a:visited {
+    color:#5F5F5F;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: #CCC;
+    text-decoration: none;
+}
+
+footer nav a:active {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/*fin de promo antes de footer */
